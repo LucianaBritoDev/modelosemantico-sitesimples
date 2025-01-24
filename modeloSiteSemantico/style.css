@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+  padding-top: 20px;
+}
+
+header {
+  background-color: #4caf50;
+  color: white;
+  padding: 20px;
+}
+header .logo h1 {
+  font-size: 2em;
+}
+header nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+}
+header nav ul li {
+  margin-left: 20px;
+}
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1em;
+  transition: color 0.3s;
+}
+header nav ul li a:hover {
+  color: #ddd;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px auto;
+  max-width: 1200px;
+}
+main article {
+  flex: 3;
+  padding: 20px;
+}
+main article section {
+  margin-bottom: 20px;
+}
+main article section h2 {
+  font-size: 1.8em;
+  color: #4caf50;
+}
+main article section p {
+  font-size: 1.1em;
+  line-height: 1.5;
+}
+main aside {
+  flex: 1;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+main aside h3 {
+  font-size: 1.5em;
+  color: #4caf50;
+}
+main aside ul {
+  list-style-type: none;
+}
+main aside ul li {
+  margin-bottom: 10px;
+}
+main aside ul li a {
+  text-decoration: none;
+  color: #4caf50;
+  font-size: 1.1em;
+  transition: color 0.3s;
+}
+main aside ul li a:hover {
+  color: #333;
+}
+
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+footer p {
+  margin: 10px 0;
+}/*# sourceMappingURL=style.css.map */

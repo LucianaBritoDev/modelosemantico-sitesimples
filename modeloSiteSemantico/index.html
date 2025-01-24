@@ -1,0 +1,87 @@
+<!--Criar um código semântico no frontend significa estruturar seu HTML de forma que seja clara e compreensível tanto para humanos quanto para os navegadores e motores de busca. Isso é feito utilizando tags HTML com significados específicos, ao invés de apenas elementos genéricos como <div> e <span>. -->
+
+<!-- Uso de tags apropriadas:
+Cada tag HTML tem um significado específico, então é importante usá-las corretamente. Aqui estão algumas das principais para uma estrutura semântica básica:
+
+<!--<header>: Para o cabeçalho da página, geralmente contém a logo, o título e o menu de navegação.
+  <nav>: Para a navegação principal do site.
+  <main>: O conteúdo principal da página (só deve existir um <main> por página).
+  <section>: Para seções distintas dentro de uma página, agrupando conteúdos relacionados.
+  <article>: Para conteúdo independente, como postagens de blog ou artigos.
+  <aside>: Para conteúdo relacionado, mas independente do conteúdo principal, como barras laterais.
+  <footer>: Para o rodapé da página, geralmente contém informações de contato, direitos autorais, etc.-->
+
+<!--Segue abaixo um modelo de página web semântica:-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Site Simples</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <h1>Meu Site Simples</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#home">Início</a></li>
+          <li><a href="#about">Sobre</a></li>
+          <li><a href="#services">Serviços</a></li>
+          <li><a href="#contact">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <article>
+        <section id="home">
+          <h2>Bem-vindo ao nosso site!</h2>
+          <p>
+            Este é um exemplo de site simples com estrutura semântica HTML.
+            Aqui, irei mostrar como organizar o conteúdo de forma limpa e
+            eficiente.
+          </p>
+        </section>
+
+        <section id="about">
+          <h2>Sobre nós:</h2>
+          <p>
+            Somos uma empresa dedicada a fornecer soluções inovadoras para
+            nossos clientes, sempre com foco na qualidade e excelência.
+          </p>
+        </section>
+
+        <section id="services">
+          <h2>Serviços:</h2>
+          <p>
+            Oferecemos uma ampla gama de serviços para atender suas
+            necessidades, incluindo consultoria, desenvolvimento e suporte
+            técnico.
+          </p>
+        </section>
+      </article>
+
+      <aside>
+        <h3>Notícias recentes:</h3>
+        <ul>
+          <li><a href="#">Novo serviço disponível!</a></li>
+          <li><a href="#">Abertura de novas vagas para nossa equipe.</a></li>
+          <li>
+            <a href="#"
+              >Veja como nosso serviço pode ajudar sua empresa a crescer.</a
+            >
+          </li>
+        </ul>
+      </aside>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Meu Site Simples. Todos os direitos reservados.</p>
+      <p>Contato: contato@sitesimples.com</p>
+    </footer>
+  </body>
+</html>
